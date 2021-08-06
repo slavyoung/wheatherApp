@@ -1,0 +1,51 @@
+$background-dark-tr: rgba(35, 55, 75, 0.9);
+$color-white: #fff;
+
+.map-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.sidebar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 6px 12px;
+    margin: 12px;
+    border-radius: 4px;
+    font-family: monospace;
+    background-color: $background-dark-tr;
+    color: $color-white;
+    z-index: 1;
+}
+
+.mapboxgl-popup.mapboxgl-popup-anchor-bottom {
+    position: absolute;
+    top: 0;
+    width: 200px;
+    padding: 18px 20px 20px;
+    border-radius: 15px;
+    text-align: center;
+    background-color: $background-dark-tr;
+    color: $color-white;
+}
+
+.mapboxgl-control-container {
+    display: none;
+}
+
+button.mapboxgl-popup-close-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: transparent;
+    border: none;
+    padding: 2px 6px;
+    color: $color-white;
+    font-size: 20px;
+    cursor: pointer;
+    outline: none;
+}
